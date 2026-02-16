@@ -224,7 +224,7 @@ We put this analysis together because we genuinely rely on Artemis's Hyperliquid
 
 We want to be clear that we're not speculating on root causes. There may be nuances in the Artemis snapshot pipeline that we're not aware of, and we recognize that indexing data from Hyperliquid at this granularity is a complex challenge. What we can say is that the single-wallet example (with only 2 lifetime deposits and independent confirmation from both the Hyperliquid API and Hyperdash) demonstrates that certain data points don't reflect the actual on-chain state.
 
-We're sharing this publicly to:
+We're sharing this to:
 - Provide a documented, reproducible starting point for investigation
 - Offer our help -- we're happy to run additional checks, test against different wallet sets, or assist with validation once any fixes are in place
 
